@@ -1,0 +1,15 @@
+nltk
+spacy
+transformers
+flask
+django
+tensorflow
+torch
+google-cloud-speech
+google-cloud-texttospeech
+twilio
+requests
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+google-api-python-client
