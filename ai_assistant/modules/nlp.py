@@ -57,7 +57,7 @@ class NLPManager:
 
     def fetch_weather(self, location):
         # This method fetches weather information from an external API
-        api_key = "YOUR API KEY"  # Replace with your actual API key
+        api_key = "YOUR API"  # Replace with your actual API key
         base_url = "http://api.weatherapi.com/v1/current.json"
         complete_url = f"{base_url}?key={api_key}&q={location}"
         response = requests.get(complete_url)
@@ -69,7 +69,7 @@ class NLPManager:
 
     def fetch_news(self, topic):
         # This method fetches news information from NewsAPI
-        api_key = "Your API KEY"  # Replace with your actual NewsAPI key
+        api_key = "YOUR API"  # Replace with your actual NewsAPI key
         base_url = "https://newsapi.org/v2/everything"
         complete_url = f"{base_url}?q={topic}&apiKey={api_key}"
         response = requests.get(complete_url)
