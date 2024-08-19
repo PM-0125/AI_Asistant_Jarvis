@@ -19,8 +19,8 @@ class Knowledge(Base):
     question = Column(String, unique=True)
     answer = Column(Text)
 
-username = 'amit'
-password = 'Pym_0125'
+username = 'your database username'
+password = 'your database password'
 encoded_password = urllib.parse.quote_plus(password)
 connection_string = f'postgresql://{username}:{encoded_password}@localhost/knowledge_db'
 engine = create_engine(connection_string)
